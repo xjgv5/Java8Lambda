@@ -22,5 +22,8 @@ public class EjemploFunctionjava {
 
         BiFunction<String, String, String> f5 = String::concat;
         System.out.println(f5.apply("hola", " perro"));
+
+        BiFunction<Integer, Integer, Integer> f6 = (a , b) -> a - b;
+        System.out.println(f6.apply(747, 277));
     }
 }
